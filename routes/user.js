@@ -25,8 +25,6 @@ const processData = async (req, res, next) => {
   const { email, firstName, lastName, phone, date, time, people } = req.body;
 
   try {
-    // Extract your data here
-    // const to = " ireoluwaenoch@gmail.com"; // Add the email you want to send to ,
     const to = "info@meierhof-victoria.ch"; // Add the email you want to send to ,
     subject = "Table Reservation"; // add the subject you want to send,
     html = `

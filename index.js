@@ -10,6 +10,7 @@ connect();
 app.use(express.json({ extended: false }));
 
 app.use("/", require("./routes/user"));
+app.use("/contact", require("./routes/contact"));
 
 const PORT = Number(process.env.PORT) || 4000;
 app.listen(PORT, () => console.log(`Server started on Port ${PORT}`));

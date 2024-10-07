@@ -1,6 +1,7 @@
 // import { createTransport } from "nodemailer";
 const { createTransport } = require("nodemailer");
-const EMAIL_SENDER = "Reservation",
+const EMAIL_SENDER = "Meierhof",
+  // const EMAIL_SENDER = "Reservation",
   EMAIL_USER = "reservation@reservetion.com",
   SMTP_HOST = "smtp.gmail.com",
   SMTP_PASSWORD = "ctit hocj vjxd qutr",
